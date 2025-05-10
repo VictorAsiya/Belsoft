@@ -1,0 +1,15 @@
+@import "tailwindcss";
+:root{
+  --primary: #166534;
+  --color: #006A05;
+  --text: #070F65;
+  --secondary: rgb(199, 197, 197);
+}
+body{
+  height: fit-content;
+  background-color: var(--primary);
+}
+
+
+
+
