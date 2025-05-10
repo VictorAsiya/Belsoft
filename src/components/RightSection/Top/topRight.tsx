@@ -4,7 +4,7 @@ import { FaStar as Star } from "react-icons/fa";
 
 function Right() {
   return (
-    <div className="lg:flex sm:grid justify-between lg:h-[90%] sm:h-[190vh] lg:w-[90%] pt-9 ">
+    <div className="lg:flex sm:grid justify-between lg:h-[90%] sm:h-[190vh] lg:w-[90%] pt-9 overflow-y-scroll">
       <div className="lg:w-[42%] sm:w-[90%]  h-[100%]  flex flex-col justify-around text-[var(--text)]">
         <div className="h-[60%] w-[100%] bg-[#F7F4F4] rounded-xl flex flex-col justify-between py-3 pl-3 ">
           <p>Total User</p>
