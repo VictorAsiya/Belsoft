@@ -1,6 +1,5 @@
 import { FaArrowRight as FaSharp } from "react-icons/fa";
 import person1 from "../../../assets/person1.jpg";
-import styles from './table.module.css'
 
 const users = [
   {
@@ -34,7 +33,7 @@ const AccountManagement = () => {
       </div>
 
       <div className="overflow-x-auto">
-        <table className={`w-full text-xs sm:text-sm overflow-scroll`}>
+        <table className="w-full text-xs sm:text-sm overflow-scroll">
           <thead className="text-gray-600 text-[10px] sm:text-xs w-full ">
             <tr className="w-100vh">
               <th className="text-left py-2 px-1">User ID</th>
