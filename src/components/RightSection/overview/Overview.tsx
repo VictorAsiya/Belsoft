@@ -5,17 +5,18 @@ import AccountManagement from "../Table/table";
 import BottomLeft from "../bottomLeft";
 import Right from "../Top/topRight";
 import { RevenueOverview } from "../Top/topLeft";
+import styles from './overview.module.css'
 
 function Overview() {
   return (
     <div
-      className="lg:h-[98%] w-full flex flex-col rounded-[20px]"
+      className={`lg:h-[98%] w-full flex flex-col rounded-[20px]${styles.mainDiv}`}
       style={{ backgroundColor: "#F7F4F4" }}
     >
       <h3 className="p-6 pt-2 h-[5%]">Overview</h3>
 
-      <div className="flex flex-col lg:flex-row h-auto lg:h-[100%] lg:w-full justify-center items-center gap-4 px-4 lg:pl-[20px]">
-        <div className="rounded-[20px] bg-white lg:h-[90%] w-full lg:w-[60%] flex flex-col justify-center">
+      <div className={`flex flex-col lg:flex-row h-auto lg:h-[100%] lg:w-full justify-center items-center gap-4 px-4 lg:pl-[20px] ${styles.overview}`}>
+        <div className="rounded-[20px] bg-white  w-full lg:w-[60%] flex flex-col justify-center">
           <RevenueOverview />
         </div>
 

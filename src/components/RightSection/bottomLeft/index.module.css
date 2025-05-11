@@ -8,9 +8,14 @@
         flex-direction: column;
         gap: 2vh;
         width: 100%;
+        margin-top: 1vh;
     }
     .span2{
         width: 100%;
+        display: flex;
+    }
+    .span2 select{
+        width: 90%;
     }
     .Details{
         height: fit-content;

@@ -1,0 +1,23 @@
+@media screen and (max-width: 1065px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .one{
+        width: 95vh;
+    }
+    .two{
+        width: 95vh;
+    }
+}
+@media screen and (max-width: 1065px) {
+    .one{
+        width: 100%;
+        margin: 2vh 0;
+    }
+    .two{
+        width: 100%;
+    }
+}
