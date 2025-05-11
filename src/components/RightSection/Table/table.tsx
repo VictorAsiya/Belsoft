@@ -25,7 +25,6 @@ const users = [
 const AccountManagement = () => {
   return (
     <div className="bg-white rounded-lg shadow p-4 w-full h-auto max-h-[500px] overflow-hidden">
-      {/* Header */}
       <div className="flex justify-between items-center mb-4">
         <p className="font-medium text-sm sm:text-base">Account Management</p>
         <button className="flex gap-1 items-center text-[10px] sm:text-xs text-green-800">
@@ -33,10 +32,9 @@ const AccountManagement = () => {
         </button>
       </div>
 
-      {/* Table */}
       <div className="overflow-x-auto">
         <table className="w-full text-xs sm:text-sm">
-          <thead className="text-gray-600 text-[10px] sm:text-xs bg-gray-100">
+          <thead className="text-gray-600 text-[10px] sm:text-xs ">
             <tr>
               <th className="text-left py-2 px-1">User ID</th>
               <th className="text-left py-2 px-1">Name of User</th>

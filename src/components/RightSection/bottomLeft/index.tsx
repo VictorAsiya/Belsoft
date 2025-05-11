@@ -1,49 +1,54 @@
 import person1 from "../../../assets/person1.jpg";
 import { FaLocationDot } from "react-icons/fa6";
+import styles from './index.module.css'
 
 function BottomLeft() {
   return (
-    <div className="w-[98%] h-[98%] flex flex-col justify-center">
-      <div className="flex flex-col h-[20%] w-[100%]">
+    <div className={`lg:w-[98%] lg:h-[98%]  flex flex-col justify-center ${styles.Main}`} >
+      <div className={`flex flex-col h-[20%] w-[100%] ${styles.Container}`}>
         <p className="text-[#070F65] font-semibold pl-3">Job Oversight</p>
-        <span className="w-95% lg:flex lg:justify-around items-center h-[71px]">
-          <input
-            type="text"
-            placeholder="search for Jobs"
-            className="border-[1.5px] border-[#123456] h-[30px] pl-3 rounded-[10px] sm:w-full lg:w-fit "
-          />
-          <button className="border-[1.5px] border-[#123456] h-[30px] px-3 rounded-[10px] sm:w-full lg:w-fit">
-            filter
-          </button>
-          <select
-            name=""
-            id=""
-            className="border-[1.5px] border-[#123456] h-[30px] px-2 rounded-[10px] lg:w-18 sm:w-full"
-          >
-            <option value="">Date</option>
-            <option value="">Last 1 week</option>
-            <option value="">Last 2 week</option>
-            <option value="">Last Month</option>
-            <option value="">Last 5 Months</option>
-          </select>
-          <select
-            name=""
-            id=""
-            className="border-[1.5px] border-[#123456] h-[30px] px-2 rounded-[10px] lg:w-18 sm:w-full"
-          >
-            <option value="">Jobs</option>
-            <option value="">Technological Jobs</option>
-            <option value="">Business Jobs</option>
-            <option value="">Handy Jobs</option>
-            <option value="">Scientific Jobs</option>
-            
-          </select>
+        <span className={`sm:w-[100%] lg:flex lg:justify-around items-center h-fit ${styles.span}` }>
+          <span className={styles.span2}>
+            <input
+              type="text"
+              placeholder="search for Jobs"
+              className="border-[1.5px] border-[#123456] h-[30px] pl-3 rounded-[10px] sm:w-[100%] lg:w-fit mr-1 "
+            />
+            <button className="border-[1.5px] border-[#123456] h-[30px] px-3 rounded-[10px] sm:w-{100%} lg:w-fit">
+              filter
+            </button>
+          </span>
+
+          <span className={styles.span2}>
+            <select
+              name=""
+              id=""
+              className="border-[1.5px] border-[#123456] h-[30px] px-2 rounded-[10px] lg:w-18 sm:w-full mr-1"
+            >
+              <option value="">Date</option>
+              <option value="">Last 1 week</option>
+              <option value="">Last 2 week</option>
+              <option value="">Last Month</option>
+              <option value="">Last 5 Months</option>
+            </select>
+            <select
+              name=""
+              id=""
+              className="border-[1.5px] border-[#123456] h-[30px] px-2 rounded-[10px] lg:w-18 sm:w-full"
+            >
+              <option value="">Jobs</option>
+              <option value="">Technological Jobs</option>
+              <option value="">Business Jobs</option>
+              <option value="">Handy Jobs</option>
+              <option value="">Scientific Jobs</option>
+            </select>
+          </span>
         </span>
       </div>
 
-      <div className="flex flex-col h-[%] w-[100%]">
+      <div className={`flex flex-col h-[%] w-[100%] ${styles.Details}`}>
         <div className="flex flex-col justify-around h-[100%] gap-3">
-          <div className="pl-2 text-[var(--text)] flex flex-col gap-.5 ">
+          <div className={`pl-2 text-[var(--text)] flex flex-col gap-.5 ${styles.Inside}`}>
             <span className="flex items-center gap-1">
               <img src={person1} alt="" className="h-4 rounded-[50%]" />
               <p className="text-[10px]">Mark Zuckerberg</p>
@@ -70,7 +75,7 @@ function BottomLeft() {
             </article>
           </div>
 
-          <div className="pl-2 text-[var(--text)] flex flex-col gap-.5">
+          <div className={`pl-2 text-[var(--text)] flex flex-col gap-.5 ${styles.Inside}`}>
             <span className="flex items-center gap-1">
               <img src={person1} alt="" className="h-4 rounded-[50%]" />
               <p className="text-[10px]">Mark Zuckerberg</p>
