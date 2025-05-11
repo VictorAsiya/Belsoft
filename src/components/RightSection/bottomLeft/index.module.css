@@ -1,4 +1,7 @@
 @media screen and (max-width: 555px) {
+    .Main{
+        width: 95%;
+    }
     .Container{
         height: fit-content;
         padding-bottom: 1vh;
@@ -19,7 +22,7 @@
     }
     .Details{
         height: fit-content;
-        /* padding-bottom: 3vh; */
+        padding-bottom: 1vh;
     }
     .Inside{
         border: 1.5px rgb(48, 47, 47) solid;

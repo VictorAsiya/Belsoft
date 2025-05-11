@@ -9,6 +9,7 @@ import {
   Legend,
 } from "recharts";
 import Button from "../../button";
+import styles from './topRight.module.css'
 
 const data = [
   { month: "Jan", productA: 20, productB: 40 },
@@ -38,7 +39,7 @@ export function RevenueOverview() {
       </div>
 
       <div className="w-full h-[200px] sm:h-[250px] md:h-[300px] relative">
-        <div className="absolute flex justify-around  z-10 w-[80%] ml-[20%] mt-4  text-white text-[10px]">
+        <div className={`absolute flex justify-around  z-10 w-[80%] ml-[20%] mt-4  text-white text-[10px] ${styles.btnDiv}`}>
            
           <Button
             title="A fall in revenue"
