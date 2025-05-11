@@ -52,7 +52,7 @@ function Overview() {
                   style={{ backgroundColor: "var(--secondary" }}
                 >
                   <div className="absolute w-[80%] rounded-2xl h-3 bg-green-800"></div>
-                  <p className="text-[10px] ml-28">80%</p>
+                  <p className="text-[10px] ml-24">80%</p>
                 </div>
               </div>
 
@@ -63,13 +63,13 @@ function Overview() {
                   style={{ backgroundColor: "var(--secondary" }}
                 >
                   <div className="absolute w-[20%] rounded-2xl h-3 bg-red-800"></div>
-                  <p className="text-[10px] ml-28">20%</p>
+                  <p className="text-[10px] ml-24">20%</p>
                 </div>
               </div>
             </div>
 
             <div
-              className="flex flex-col h-auto sm:h-[70%] sm:w-[17%] justify-center items-center sm:mr-2 mt-4 sm:mt-0"
+              className={`flex lg:flex-col h-auto sm:h-[70%] justify-center items-center sm:mr-2 mt-4 sm:mt-0 ${styles.bottom}`}
               style={{ backgroundColor: "#FCF8F8" }}
             >
               <div className="flex">
@@ -80,6 +80,7 @@ function Overview() {
                   +100
                 </p>
               </div>
+
               <div>
                 <p className="text-[12px]" style={{ color: "var(--text)" }}>
                   Most rated

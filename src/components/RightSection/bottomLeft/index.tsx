@@ -12,7 +12,7 @@ function BottomLeft() {
             <input
               type="text"
               placeholder="search for Jobs"
-              className="border-[1.5px] border-[#123456] h-[30px] pl-3 rounded-[10px] sm:w-[100%] lg:w-fit mr-1 "
+              className="border-[1.5px] border-[#123456] h-[30px] pl-3 rounded-[10px] sm:w-[70%] lg:w-fit mr-1 "
             />
             <button className="border-[1.5px] border-[#123456] h-[30px] px-3 rounded-[10px] sm:w-{100%} lg:w-fit">
               filter
