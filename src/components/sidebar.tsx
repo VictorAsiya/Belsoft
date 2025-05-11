@@ -62,7 +62,7 @@ function Sidebar() {
       </button>
 
       <div
-        className={`fixed top-0 left-0 lg:h-[1006px] z-40 transform bg-[#F7F4F4] text-[var(--color)] rounded-r-[15px] p-4 transition-transform duration-300 ease-in-out
+        className={`fixed top-0 left-0 lg:h-[1006px] sm:h-screen z-40 transform bg-[#F7F4F4] text-[var(--color)] rounded-r-[15px] p-4 transition-transform duration-300 ease-in-out
         w-[250px] md:static md:translate-x-0 md:w-[25%] md:h-[2200px] md:flex
         ${isOpen ? "translate-x-0" : "-translate-x-full"} md:rounded-[15px]`}
       >
