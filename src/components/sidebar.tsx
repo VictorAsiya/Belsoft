@@ -55,7 +55,7 @@ function Sidebar() {
       )}
 
       <button
-        className="md:hidden text-2xl p-3 fixed top-4 left-0 z-50 bg-green-800 text-white rounded"
+        className="md:hidden text-2xl p-1 ml-2 fixed top-4 left-0 z-50 bg-green-800 text-white rounded"
         onClick={() => setIsOpen(!isOpen)}
       >
         <FaBars />
